@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../src/style.css">
+    <title>Web Programming Lab 4</title>
+  </head>
+  <body onload="loadPage()">
+    <div id="root"></div>
+	<div class="tabs-header">
+		<div id="about-me" class="tabs-header__item"><input type="button" value="Инфо обо мне" class="button about-me-button"></div>
+		<div id="about-pokemon" class="tabs-header__item"><input type="button" value="Инфо о покемоне" class="button about-pokemon-button"></div>
+		<!-- <div id="delete-button" class="tabs-header__item"><input type="button" value="Delete All" class="button delete-all-button"></div> -->
+	</div>
+	<div id="tab-content" class="tabs-content__item">
+		<div id="poke-container"></div>
+	</div>
+	<script src="main.js"></script>
+  </body>
+</html>
